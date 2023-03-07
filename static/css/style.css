@@ -1,0 +1,145 @@
+html, body, h1 , h2 , h3 , div , span, a, button, input {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(235, 235 , 235);
+}
+.wrap {
+    background-color: #f2f4f8;
+    width: 350px;
+    height: 700px;
+    margin: auto;
+}
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.wrap-todo {
+    padding: 16px;
+}
+h1 {
+    font-size: 24px;
+    margin: 16px;
+}
+
+.todo {
+    padding : 16px;
+    background-color: white;
+    border-radius: 8px;
+    width: 300px;
+    height: 50px;
+    margin-bottom: 8px;
+}
+.todo-content {
+    margin-left: 8px;
+    margin-right: auto;
+    /* display:none; */
+}
+
+.todo > input {
+    zoom : 1.5;
+
+    background-color: transparent;
+}
+
+.add-form {
+    padding: 16px;
+    background-color: #fff6f8;
+    border-radius: 8px;
+    border: 1px solid red;
+    width: 300px;
+    height: 50px;
+    display:none;
+}
+
+.add-form > input {
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    width: 200px;
+}
+
+.add-form > input:focus-visible {
+    outline: none;
+}
+
+.add-form-btns {
+    margin-left: auto;
+}
+
+.add-form-btns > button {
+    margin: 0px 4px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.add-btn {
+    padding: 16px;
+    background-color: transparent;
+    border-radius: 8px;
+    border: 1px dashed gray;
+    width: 300px;
+    height: 50px;
+    cursor: pointer;
+}
+.add-btn > span {
+    margin-bottom: 5px;
+}
+
+.add-btn > button {
+    margin-left: 8px;
+    margin-right: auto;
+    background-color: transparent;
+    border: none;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.todo-content-modify {
+    display:none;
+}
+
+.todo-content-modify > input {
+    border : none;
+    margin-left: 8px;
+    margin-right: auto;
+    font-size: 16px;
+    color: gray;
+    width: 160px;
+}
+
+.todo-content-modify > input:focus-visible {
+    outline: none;
+}
+
+.todo-content-modify > button {
+    margin: 0px 8px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    font-size: 11px;
+}
+
+.delete-btn {
+    background-color: transparent;
+    border : none;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 11px;
+    color: red;
+}
